@@ -4,6 +4,7 @@
 html, body, .capa {
 	height: 100%;
     overflow: auto;
+    
 }
 
 /* -- Barra de navegação -- */
@@ -69,7 +70,8 @@ html, body, .capa {
 }
 
 
-//Carousel
+//Carouse
+
 .carousel-indicators .active {
     background-color: #e41b7e;
 }
@@ -123,6 +125,7 @@ html, body, .capa {
     }
 }
 
+
 // footer
 
 footer {
@@ -132,21 +135,43 @@ footer {
 }
 
 #rodape h4 {
-	color: #919496;
-	font-size: 12px;
-	text-transform: uppercase;
+	color: white;
+	font-size: 20px;
 }
 
 #rodape li{
     display: block;
+    color:white;
 }
 
 #rodape a{
     color:white;
-
 }
 
+#rodape hr{
+    color: white;
+}
+
+#rodape .teste{
+    width: 195px;
+    height: 38px;
+    left: 868px;
+    bottom: 128px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+
 /* ========================= Tipografia ======================== */
+.m-7{
+    margin-top: 10px;
+}
+hr {
+    height: 4px;
+    border-radius: 50px;;
+}
+
 h1 {
 	font-weight: 900;
 	letter-spacing: -0.05em;
