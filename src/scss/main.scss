@@ -152,18 +152,16 @@ footer {
     color: white;
 }
 
-#rodape .teste{
-    width: 195px;
-    height: 38px;
-    left: 868px;
-    bottom: 128px;
-
-    background: #FFFFFF;
-    border-radius: 5px;
+.size-btn {
+    width: 70%;
+    margin: 5px;
+    white-space: normal;
 }
 
-
 /* ========================= Tipografia ======================== */
+.marcador{
+    border: 1px solid red;
+}
 .m-7{
     margin-top: 10px;
 }
