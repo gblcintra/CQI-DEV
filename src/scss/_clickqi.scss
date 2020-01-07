@@ -1,0 +1,30 @@
+html, body, .capa {
+	height: 100%;
+	overflow: auto;
+}
+
+/* -- Barra de navegação -- */
+.img-logo {
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('img/clickqi.svg') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+/* Barra de pesquisa */
+#busca{
+	size: 80px!important;
+}
+
+#box_icone_busca{
+  padding: 10px;
+  position: relative;
+  left: -32px;
+
+}
+#icone_busca {
+  color: #000;
+  cursor: pointer;
+}

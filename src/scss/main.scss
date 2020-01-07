@@ -1,0 +1,67 @@
+// chamada
+// @import "clickqi";
+
+html, body, .capa {
+	height: 100%;
+    overflow: auto;
+}
+
+/* -- Barra de navegação -- */
+.img-logo {
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('img/clickqi.svg') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+/* Barra de pesquisa */
+.search {  
+        background-color: transparent;
+        transition: transform 250ms ease-in-out;
+        font-size: 14px;
+        line-height: 18px;  
+        color: #575756;
+        border-color: transparent;
+        border-bottom: 1px solid grey;
+        transition: all 250ms ease-in-out;
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+        
+        &::placeholder {
+            color: color(#575756 a(0.8));
+            letter-spacing: 1.5px;
+        }
+        &:hover,
+        &:focus {
+            outline: 0;
+            border: 1px solid transparent;
+            border-bottom: 1px solid grey; 
+            background-color: transparent;
+    }
+}
+.trasmp{
+    background: transparent;
+    border: 1px solid transparent;
+    border-bottom: 1px solid grey; 
+}
+
+//Notificação
+.notify{
+    text-align: center;
+    margin: 5px;
+    padding: 0px 3px;
+    background: red;
+    border-radius: 50%;
+    color: white;
+    font-size: 10px;
+}
+
+/*Dark Style*/
+.dark {
+    color: black;
+}
+
+
+//Caroseul
