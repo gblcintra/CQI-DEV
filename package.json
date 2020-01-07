@@ -9,7 +9,6 @@
   "author": "Gabriel de Oliveira Cintra",
   "license": "ISC",
   "description": "",
-  "dependencies": {},
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
     "bootstrap": "^4.4.1",

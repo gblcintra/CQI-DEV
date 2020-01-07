@@ -17,6 +17,11 @@ html, body, .capa {
 	color: transparent;
 }
 
+.btn-outline-secondary{
+    color: white;
+    border: solid white;
+}
+
 /* Barra de pesquisa */
 .search {  
         background-color: transparent;
@@ -153,8 +158,9 @@ footer {
 }
 
 .size-btn {
-    width: 70%;
+    width: 80%;
     margin: 5px;
+    margin-left: -20px;;
     white-space: normal;
 }
 
