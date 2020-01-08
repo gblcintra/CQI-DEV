@@ -1,5 +1,7 @@
 "use strict";
 
+//Carousel dos produtos
+
 var products = [];
 var isFetching = false;
 
@@ -62,6 +64,8 @@ function makeCarousel(corouselSize, products) {
     return html;
 }
 
+
+//Indicadores do carousel
 function makeCarouselIndicators(carouselViews) {
     var html = "";
 
@@ -76,22 +80,24 @@ function makeCarouselIndicators(carouselViews) {
     return html;
 }
 
+//Listagem de produtos
 function makeItem(product) {
     var html = "";
     html += "    <div class='col-sm-3'>";
     html += "      <div class='thumb-wrapper'>";
     html += "      " + makeDivImage(product.productImage);
     html += "      </div>";
-    html += "      <div class='thumb - content'>";
+    html += "      <div class='thumb - content e'>";
     html += "        <h4>" + product.productName + "</h4>";
     html += "      " + makeDivRating(product.productRating);
     html += "      " + makeDivPrice(product.productListPrice, product.productBestPrice, product.productInstallments, product.productInstallmentsValue);
-    html += "        <a href='#'><button class='btn btn - dark'>Comprar</button></a>";
+    html += "        <a href='#'><button class='btn btn-outline-dark'>Comprar</button></a>";
     html += "      </div>";
     html += "    </div>";
     return html;
 }
 
+//Pegar imagem do produto
 function makeDivImage(image) {
     var html = "";
     html += "        <div class='img-box'>"
@@ -100,6 +106,8 @@ function makeDivImage(image) {
     return html;
 }
 
+
+//Pegar avaliação do produto
 function makeDivRating(rating) {
     var starts = parseInt(rating / 10);
     var html = "";
@@ -116,20 +124,25 @@ function makeDivRating(rating) {
     return html;
 }
 
+
+//Pegar preço, melhor preço, parcelas e valores das parcelas do produto
 function makeDivPrice(listPrice, bestPrice, installments, installmentsValue) {
     var html = "";
     html +=  "<p class='item-price'>"
     if (listPrice != '0') {
-        html += "    <strike>" + (listPrice / 100).toFixed(2) + "</strike>"
+        html += "    <strike>R$ " + (listPrice / 100).toFixed(2) + "</strike>"
     }
-    html += "    <span>" + (bestPrice / 100).toFixed(2) +"</span>"
+    html += "    <span>R$ " + (bestPrice / 100).toFixed(2) +"</span>"
     html += "</p>";
     if (installments != '0') {
-        html += "<p>ou em <span>" + installments + "</span>x de R$<span>" + (installmentsValue / 100).toFixed(2) +"</span></p>"
+        html += "<p>ou em <span>" + installments + "</span>x de R$ <span>" + (installmentsValue / 100).toFixed(2) +"</span></p>"
     }
     return html;
 }
 
+
+
+//Arrumar resolução da tela para carousel de produtos
 window.onload = function() {
     calcCarouselSize()
 }
