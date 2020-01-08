@@ -58,8 +58,6 @@ html, body {
     border: 1px solid transparent;
     border-bottom: 1px solid grey; 
 }
-
-//Notificação
 .notify{
     text-align: center;
     margin: 5px;
@@ -68,11 +66,6 @@ html, body {
     border-radius: 50%;
     color: white;
     font-size: 10px;
-}
-
-/*Dark Style*/
-.dark {
-    color: black;
 }
 
 
@@ -281,6 +274,10 @@ footer {
 /* ========================= Tipografia ======================== */
 .marcador{
     border: 1px solid red;
+}
+
+.dark {
+    color: black;
 }
 
 .m-7{
