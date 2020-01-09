@@ -1,10 +1,14 @@
 # Criação de Layout
 HTML5 e CSS3;
+
 Carrossel implementado com jQuery;
 
 Interação com JSON para renderizar a lista de produtos;
+
 Utilizando Gulp;
+
 Página responsiva;
+
 Utilizando pré-processador de CSS SASS;
 
 ## Instalação
