@@ -53,21 +53,57 @@ html, body {
             background-color: transparent;
     }
 }
-.trasmp{
-    background: transparent;
-    border: 1px solid transparent;
-    border-bottom: 1px solid grey; 
-}
-.notify{
-    text-align: center;
-    margin: 5px;
-    padding: 0px 3px;
-    background: red;
-    border-radius: 50%;
-    color: white;
-    font-size: 10px;
+
+
+//Card
+    .trasmp{
+        background: transparent;
+        border: 1px solid transparent;
+        border-bottom: 1px solid grey; 
+    }
+    .notify{
+        text-align: center;
+        margin: 5px;
+        padding: 0px 3px;
+        background: red;
+        border-radius: 50%;
+        color: white;
+        font-size: 10px;
+    }
+@media screen and (min-width: 576px) {
+    .cardnav{
+        position: absolute;
+        margin-left: 230px !important;
+
+    }
 }
 
+/* sm */
+@media screen and (min-width: 768px) {
+    .cardnav{
+        position: absolute;
+        margin-left: 275px !important;
+
+    }
+
+}
+/* md */
+@media screen and (min-width: 992px) {
+    .cardnav{
+        position: absolute;
+        margin-left: 400px !important;
+
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    .cardnav{
+        position: absolute;
+        margin-left: 400px !important;
+
+    }
+}
 
 
 
@@ -133,6 +169,13 @@ html, body {
     }
 }
 
+.btn-pink{
+    &:hover{
+        background-color: $cliclqipink;
+        border-color: transparent;
+    }
+}
+
 // Produtos
 #product{
     .e:hover {
@@ -195,7 +238,7 @@ html, body {
         .item-price {
             font-size: 13px;
             padding: 2px 0;
-             strike {
+            strike {
                 color: #999;
                 margin-right: 5px;
             }
@@ -248,18 +291,18 @@ footer {
 
 #rodape {
     h4 {
-	color: white;
-	font-size: 20px;
+        color: white;
+        font-size: 20px;
     }
-     li{
-    display: block;
-    color:white;
+    li{
+        display: block;
+        color:white;
     }
     a{
-    color:white;
+        color:white;
     }
     hr{
-    color: white;
+        color: white;
     }
 }
 
@@ -274,6 +317,7 @@ footer {
 /* ========================= Tipografia ======================== */
 .marcador{
     border: 1px solid red;
+    background: red;
 }
 
 .dark {
