@@ -9,11 +9,13 @@ Utilizando pré-processador de CSS SASS;
 
 ## Instalação
 Instale as dependencias com o comando:
-...
+
+```
 npm install
-...
+```
 
 Como estou utilizando o Gulp, é necessario que ele também esteja instalado:
-...
+
+```
 npm install gulp
-...
+```
