@@ -31,6 +31,8 @@ function getProducts(corouselSize) {
         );
 }
 
+//teste
+
 function makeCarousel(corouselSize, products) {
     var carouselItems = products.length;
     var carouselViews = Math.round(carouselItems / corouselSize);
